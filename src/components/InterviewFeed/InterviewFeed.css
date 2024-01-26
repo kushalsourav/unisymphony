@@ -1,0 +1,29 @@
+.interviewfeed {
+    height: 85vh;
+    overflow-y: scroll;
+    border: 5px solid #eaeaea;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.add_btn {
+position: fixed;
+top:80%;
+left:49.7%;
+transform: translate(-50%,-25%);
+padding: 12px 12px;
+width: 140px;
+border: 1px solid black;
+color: black;
+background: #ffffff;
+}
+.add_btn:hover {
+    background-color: black;
+    color: #ffffff;
+}

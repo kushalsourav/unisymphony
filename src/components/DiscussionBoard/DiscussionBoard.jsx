@@ -1,0 +1,19 @@
+import React from 'react';
+import "./DiscussionBoard.css";
+import Sidebar from '../Sidebar/Sidebar';
+import Thread from '../Thread/Thread';
+import AcademicFeed from '../AcademicFeed/AcademicFeed';
+
+
+const DiscussionBoard = () => {
+    return (
+        <div className='discussionboard'>
+            <Sidebar />
+            <AcademicFeed />
+        </div>
+    );
+}
+
+export default DiscussionBoard;
+
+

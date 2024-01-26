@@ -25,7 +25,7 @@ const NavigateBar = () => {
                         <span className='navigatebar_text'>calendar</span>
                         </li>
                 </Link>
-                <Link to="/notes" className='navigatebar_link'>
+                <Link to="/forums" className='navigatebar_link'>
                     <li className="navigatebar_to">
                     <span className='navigatebar_icons'>
                             <FontAwesomeIcon icon={faClipboard} className='navigatebar_icon' />
@@ -33,7 +33,7 @@ const NavigateBar = () => {
                         <span className='navigatebar_text'>notes</span>
                         </li>
                 </Link>
-                <Link to="/todos" className='navigatebar_link'>
+                <Link to="/learning" className='navigatebar_link'>
                     <li className="navigatebar_to">
                     <span className='navigatebar_icons'>
                             <FontAwesomeIcon icon={faCalendarCheck} className='navigatebar_icon' />

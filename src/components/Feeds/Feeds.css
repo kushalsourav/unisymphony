@@ -1,0 +1,73 @@
+.feeds {
+    position: relative;
+}
+
+.feed_card {
+    margin: 10px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.feed_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.feed_about {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.feed_companyname {
+    float: right;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: auto;
+
+}
+
+.feed_username {
+    font-size: 14px;
+    font-weight: 100;
+    align-self: flex-end;
+}
+
+.feed_timestamp {
+    font-size: 10px;
+    align-self: flex-end;
+    letter-spacing: 0.5px;
+}
+
+.feed_body {
+    padding: 16px;
+}
+
+.feed_description {
+    font-size: 14px;
+}
+
+.feed_content-list {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.feed_content-list:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.question_list {
+    list-style-type: none;
+}
+

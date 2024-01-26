@@ -3,13 +3,3 @@
     padding: 0px 10px;
 }
 
-.calendar_body {
-    display: grid;
-    grid-template-columns: 20% 75%;
-    grid-template-rows: auto;
-}
-.calendar_subbody {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}

@@ -9,7 +9,7 @@ const CalendarHead = () => {
             <h2 className='calendarhead_heading'>Calendar</h2>
              <div className="calendarhead_body">
                 <div className="calendarhead_toggle">
-                    <span className='calendarhead_toggler'>day</span>
+                    {/* <span className='calendarhead_toggler'>day</span> */}
                     <span className='calendarhead_toggler'>week</span>
                 </div>
                 <div className="calendarhead_dates">
