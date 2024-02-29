@@ -2,7 +2,7 @@ import React from 'react';
 import "./NavigateBar.css";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBorderAll, faCalendar, faCalendarCheck, faClipboard } from '@fortawesome/free-solid-svg-icons';
+import { faBorderAll, faCalendar, faCalendarCheck, faClipboard, faHome } from '@fortawesome/free-solid-svg-icons';
 
 const NavigateBar = () => {
     return (
@@ -30,15 +30,15 @@ const NavigateBar = () => {
                     <span className='navigatebar_icons'>
                             <FontAwesomeIcon icon={faClipboard} className='navigatebar_icon' />
                         </span>
-                        <span className='navigatebar_text'>notes</span>
+                        <span className='navigatebar_text'>Forums</span>
                         </li>
                 </Link>
                 <Link to="/learning" className='navigatebar_link'>
                     <li className="navigatebar_to">
                     <span className='navigatebar_icons'>
-                            <FontAwesomeIcon icon={faCalendarCheck} className='navigatebar_icon' />
+                            <FontAwesomeIcon icon={faHome} className='navigatebar_icon' />
                         </span>
-                       <span className='navigatebar_text'>todos</span>
+                       <span className='navigatebar_text'>Home</span>
                         </li>
                 </Link>
             </ul>

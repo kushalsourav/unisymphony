@@ -1,0 +1,32 @@
+
+.featured_body {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    background-color: #e4e4e4;
+    border-radius: 8px;
+  }
+  .featured_details {
+    padding: 8px;
+    width: auto;
+  }
+  .featured_img {
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+  }
+
+  .featured_description {
+    font-size: 12px;
+  }
+  .featured_duration {
+   
+    font-size: 12px;
+  }
+
+  .featured_icon {
+    margin-right: 10px;
+  }

@@ -1,14 +1,14 @@
 .interviewfeed {
-    height: 85vh;
+    height: auto;
     overflow-y: scroll;
-    border: 5px solid #eaeaea;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 10px;
-    position: relative;
+    margin: 10px 0 40px 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    border-radius: 10px;
+}
+.interviewfeed::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -26,4 +26,10 @@ background: #ffffff;
 .add_btn:hover {
     background-color: black;
     color: #ffffff;
+}
+
+.heading_primary {
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 5px;
 }

@@ -8,7 +8,7 @@ import Projects from '../Projects/Projects';
 const StudentDashboard = () => {
     return (
         <div className='stdashboard'>
-          <Sidebar />
+
           <InterviewFeed />
           <div className="stdashboard_insights">
             <div className="stdashboard_events">
@@ -17,19 +17,10 @@ const StudentDashboard = () => {
               <Events />
               <Events />
               <Events />
+              <Events />
+        
               </div>
-              <button className="event_btn">view all events</button>
-            </div>
-    
-            <div className="stdashboard_projects">
-            <h3 className='stdashboard_h3'>Projects</h3>
-            <div className="projects">
-               <Projects />
-               <Projects />
-               <Projects />
-
-            </div>
-            <button className="project_btn">view all projects</button>
+              {/* <button className="event_btn">view all events</button> */}
             </div>
           </div>
         </div>

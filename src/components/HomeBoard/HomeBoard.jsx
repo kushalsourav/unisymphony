@@ -1,9 +1,12 @@
 import React from 'react';
-import "homeboard.css";
+import "./HomeBoard.css";
+import Sidebar from "../Sidebar/Sidebar";
+import BoardOne from '../BoardOne/BoardOne';
 const HomeBoard = () => {
     return (
         <div className='homeboard'>
-            
+            <Sidebar />
+            <BoardOne />
         </div>
     );
 }

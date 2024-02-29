@@ -4,6 +4,9 @@ import Home from '../pages/Home/Home';
 import Calendar from '../pages/Calendar/Calendar';
 import Forums from '../pages/Forums/Forums';
 import Learning from '../pages/Learning/Learning';
+import HomeBoard from '../components/HomeBoard/HomeBoard';
+import Chat from '../pages/Chat/Chat';
+import StudentProfile from '../pages/StudentProfile/StudentProfile';
 
 const Router = () => {
     return (
@@ -11,7 +14,8 @@ const Router = () => {
             <Route path='/' element={<Home />} />
             <Route path='/calendar' element={<Calendar />} />
             <Route path='/forums' element={<Forums />} />
-            <Route path='/learning' element={<Learning />} />
+            <Route path='/learning' element={<HomeBoard />} />
+            <Route path='/chat' element={<StudentProfile />} /> 
         </Routes>
     );
 }

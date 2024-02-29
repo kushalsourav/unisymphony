@@ -1,0 +1,27 @@
+.myforum {
+    width: auto;
+   margin-top: 50px;
+}
+
+.myforum_head {
+    text-align: center;
+    background-color: #eaeaea;
+    color: #333;
+    padding: 8px 0px 10px 0px;   
+    letter-spacing: 0.8px;
+    font-weight: 400;
+}
+.myforum_icon {
+    margin-right: 20px;
+}
+
+.myforum_list {
+    margin: 30px 10px;
+}
+
+.myforum_items {
+    list-style-type: none;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}

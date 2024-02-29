@@ -1,12 +1,16 @@
 .navigatebar {
 position: fixed;
-width: 50%;
+width: 30%;
 padding: 10px 20px;
+/* background: #163f834b; */
 background-color: #eaeaea;
+
 border-radius: 40px;
-top: 90%;
-left: 25%;
+top: 92%;
+left: 31%;
 z-index: 999999;
+color: #000;
+/* color: #fff; */
 }
 .navigatebar_navigator {
     display: flex;
@@ -24,27 +28,34 @@ z-index: 999999;
     align-items: center;
     padding: 10px 20px;
     border-radius: 20px;
+    line-height: 1px;
 }
 .navigatebar_text {
-    font-size: 18px;
+    font-size: 12px;
     text-transform: capitalize;
     letter-spacing: 1px;
     font-weight: 400;
+
 }
 .navigatebar_icon {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 14px;
     margin-right: 10px;
-    color: #000000;
-    border-color: black;
+    /* color: #ffff;
+    border-color: #fff; */
+    color: #000;
+    
 }
 .navigatebar_to:hover {
-    background-color: #000000;
+     /* background: #fff;;
+    color: #050d38;; */
+    background: #000;
     color: #fff;
     padding: 10px 20px;
     border-radius: 20px;
 }
 
 .navigatebar_to:hover .navigatebar_icon{
+    /* color: #050d38;; */
     color: #fff;
 }

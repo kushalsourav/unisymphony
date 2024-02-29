@@ -5,12 +5,12 @@ import Feeds from '../Feeds/Feeds';
 const InterviewFeed = () => {
     return (
         <div className='interviewfeed'>
+            <h1 className='heading_primary'>Interview  Insights</h1>
             <Feeds />
             <Feeds />
             <Feeds />
             <Feeds />
             <Feeds />
-            <button className='add_btn'>Add Experience</button>
         </div>
     );
 }
