@@ -4,7 +4,10 @@ import imgL from "../../assets/img/7408.jpg";
 const ActiveCourse = () => {
     return (
         <div className="course_body">
-            <img src={imgL} alt="image" className="course_img" />
+            <span className='course_img' style={{
+  backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${imgL})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center'}}></span>
             <div className="course_details">
                 <h5 className="course_title">Artificial inteligence</h5>
                 <div className="course_rangebar">

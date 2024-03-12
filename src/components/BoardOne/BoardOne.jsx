@@ -15,7 +15,6 @@ const BoardOne = () => {
                 <h1 className="heading-primary">AshBorn</h1>
                 <small className="grey-text">ready to embark on your learning journey?</small>
               </div>
-              <img src={welcomeimage} alt="" className="boardone-img" />
             </div>
 
             <div className="boardone_stats">

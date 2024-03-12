@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 .academicfeed_box {
-    width: 540px;
+    width: 100%;
     height: 500px;
     margin: 5px;
     padding: 5px;
@@ -23,9 +23,9 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin:0px 20px 20px 20px;
+    margin: 40px auto 20px auto;
     padding: 0px 40px;
-    width: 540px;
+    width: 750px;
     position: relative;
 }
 
@@ -55,14 +55,48 @@
 .post_form {
  outline: none;
  border: none;
- 
+ padding: 16px 64px 16px 74px;
+ width: 100%;
+ background: var(--primary-color);
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+ color: var(--white);
+ background-color: var(--secondary-color-a);
 }
 
 .post_form:focus {
     outline: none;
+    padding: 16px 64px 16px 74px;
 }
 
 
 .left-10 {
     left: -14px;
+}
+
+.post_label {
+position: relative;
+width: 100%;
+}
+.post_icon {
+    position: absolute;
+    color: var(--white);
+}
+.post_icon-send {
+    top: 16px;
+    left: 92%;
+}
+.post_icon-smile {
+    top: 16px;
+    left: 2%;
+    background: transparent;
+}
+.post_icon-paperclip {
+    top: 16px;
+    left: 6.5%;
+    background: transparent;
+}
+
+
+.academicfeed_box::-webkit-scrollbar {
+  display: none;
 }

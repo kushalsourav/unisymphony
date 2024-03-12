@@ -1,7 +1,9 @@
 .sidebar {
-    padding: 10px 5px;
-    background-color: #eaeaea;
+    padding: 10px 20px;
+    color: #eaeaea;
     height: auto;
+    border-right: 2px solid var(--secondary-color);
+    background: var(--secondary-color-a);
 }
 .sidebar_list {
     margin: 30px 0;
@@ -13,7 +15,7 @@
 
 .sidebar_items {
     list-style-type: none;
-    padding: 4px 12px 8px 12px;
+    padding: 10px 16px 12px 16px;
     width: 180px;
 }
 
@@ -29,9 +31,9 @@
 }
 
 .sidebar_items:hover {
-    background-color: #000000;
+    background-color: var(--primary-color);
     color: #fff;
-    padding: 4px 12px 8px 12px;
+    padding: 10px 16px 12px 16px;
     border-radius: 10px;
 }
 

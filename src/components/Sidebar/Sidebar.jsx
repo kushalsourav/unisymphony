@@ -10,7 +10,7 @@ const Sidebar = () => {
         <div className='sidebar'>
             <ul className="sidebar_list">
                 <li className="sidebar_items">
-                 <Link className='sidebar_link'>
+                 <Link to='/insights' className='sidebar_link'>
                     <FontAwesomeIcon icon={faUserTie} className='sidebar_icon' /> Insights
                  </Link>
                 </li>
@@ -21,11 +21,11 @@ const Sidebar = () => {
                 </li>
                 <li className="sidebar_items">
                 <Link className='sidebar_link'>
-                    <FontAwesomeIcon icon={faComment} className='sidebar_icon' /> Discussion forum
+                    <FontAwesomeIcon icon={faComment} className='sidebar_icon' /> Channels
                 </Link>
                 </li>
                 <li className="sidebar_items">
-                <Link className='sidebar_link'>
+                <Link  to='/explore' className='sidebar_link'>
                     <FontAwesomeIcon icon={faBriefcase} className='sidebar_icon' /> Job Postings
                 </Link>
                 </li>

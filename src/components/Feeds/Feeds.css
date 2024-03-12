@@ -1,9 +1,17 @@
 :root{
     --primary-color : #344955;
     --secondary-color: #232f343a;
+    /* --primary-color : #83C100;
+    --secondary-color: #76a9004e; */
     --white: #fff;
     --dark: #000;
+    --secondary-color-a: #232f34
+    /* --secondary-color-a: #77A900; */
 
+/*  hitesh color
+    --primary-color : #047389;
+    --secondary-color: #33464e; */
+    
 }
 body {
     /* background-color: #050d38;

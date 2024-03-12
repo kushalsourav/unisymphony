@@ -6,8 +6,12 @@ import { faClock, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const FeaturedCourse = () => {
     return (
-        <div className="featured_body">
-        <img src={imgL} alt="image" className="featured_img" />
+        <div className="featured_body" style={{
+            backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${imgL})`,
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            }}>
+       
         <div className="featured_details">
             <h5 className="featured_title">Machine Learning</h5>
             <p className="featured_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, impedit aut eius iure a ab!</p>

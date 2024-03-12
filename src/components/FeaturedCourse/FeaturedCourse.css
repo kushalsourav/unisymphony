@@ -1,20 +1,20 @@
 
 .featured_body {
-    width: 300px;
+    width: auto;
     height: 200px;
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 8px;
-    background-color: #e4e4e4;
+    background-color: var(--secondary-color);
     border-radius: 8px;
   }
   .featured_details {
     padding: 8px;
     width: auto;
   }
-  .featured_img {
-    width: 120px;
+  .featured_img{
+    width: auto;
     height: 180px;
     border-radius: 8px;
   }

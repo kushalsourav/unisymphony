@@ -5,7 +5,6 @@ import BoardOne from '../BoardOne/BoardOne';
 const HomeBoard = () => {
     return (
         <div className='homeboard'>
-            <Sidebar />
             <BoardOne />
         </div>
     );

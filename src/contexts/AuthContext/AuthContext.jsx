@@ -1,22 +1,34 @@
-import { createContext, useContext, useReducer } from "react";
+import { createContext, useContext, useEffect, useReducer } from "react";
 import AuthReducer from "../../reducers/AuthReducer/AuthReducer";
+import { redirect, useNavigate , Navigate, useLocation} from "react-router-dom";
 
-const intialAuthState = {
- login:"",
- username: "",
-};
+const initialAuthState = {
+  user : {
 
-const AuthContext = createContext(null);
-
-const  useAuth = () => useContext(AuthContext)
-const AuthProvider = ({children}) => {
-    const [authState, authDispatch] = useReducer(intialAuthState, AuthReducer)
-
-    return (
-        <AuthContext.Provider value={{authState, authDispatch}}>
-         {children}
-        </AuthContext.Provider>
-    );
+  },
+    username: "",
+    email: "",
+    password: "",
+    login: true,
 }
 
-export {AuthProvider, useAuth};
+
+const AuthContext = createContext();
+
+const useAuth = () => useContext(AuthContext);
+
+const AuthProvider = ({children}) => {
+    const [authState, authDispatch] = useReducer(AuthReducer, initialAuthState)
+    const location = useLocation()
+    const navigate = useNavigate()
+
+    console.log(initialAuthState)
+
+      return(
+        <AuthContext.Provider value={{authState, authDispatch}} >
+            {children}
+        </AuthContext.Provider>
+      )
+}
+
+export {AuthProvider, useAuth}
